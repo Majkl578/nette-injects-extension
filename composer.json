@@ -1,0 +1,21 @@
+{
+	"name": "majkl578/nette-injects-extension",
+	"type": "nette-addon",
+	"keywords": ["nette", "di", "dependency injection", "inject", "autowire"],
+	"authors": [
+		{
+			"name": "Michael Moravec"
+		}
+	],
+	"description": "Nette Framework DI extension for injecting services into other services' properties.",
+	"license": "MIT",
+	"require": {
+		"php": ">=5.3.1",
+		"nette/nette": "~2.1.0-RC2@rc"
+	},
+	"autoload": {
+		"psr-0": {
+			"Majkl578\\NetteAddons\\Injects\\": "lib/"
+		}
+	}
+}
